@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="css/reset.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/custom.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/fonts.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/general.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/layout.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/burger.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/cards.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/fav.png"
+    />
+    <title>Emergency Site</title>
+  </head>
+  <body id="frontpage">
+    <header>
+      <nav>
+        <div
+          id="logotype-wrapper"
+          class="logo"
+        >
+          <a href="index.html"> LOGO-TYPE </a>
+        </div>
+        <ul class="menu">
+          <li>
+            <a
+              class="menuItem"
+              href="instruction.html"
+              >Nærkontakt
+            </a>
+          </li>
+          <li>
+            <a
+              class="menuItem"
+              href="register.html"
+              >Indberet</a
+            >
+          </li>
+        </ul>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+    <section id="main-disclamer">
+      <div id="main-disclamer-content">
+        <img
+          src="warning"
+          alt="ICON"
+        />
+        <div>
+          <h1>OVERSKRIFT</h1>
+          <p class="sub">Underrubrik</p>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section id="daily">
+        <article class="daily_card">
+          <img
+            src="img/poopshoe.svg"
+            alt="teaser_img"
+          />
+          <div class="daily_text">
+            <h2>Teaser</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              magnam ducimus ea, sed minima asperiores.
+            </p>
+            <a href="instruction.html">læs mere</a>
+          </div>
+          <div
+            popover
+            id="popover1"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              magnam ducimus ea, sed minima asperiores.
+            </p>
+            <button
+              class="btn"
+              popovertarget="popover1"
+            >
+              luk
+            </button>
+          </div>
+        </article>
+        <article class="daily_card">
+          <img
+            src=""
+            alt="teaser_img"
+          />
+          <div class="daily_text">
+            <h2>Teaser</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              magnam ducimus ea, sed minima asperiores.
+            </p>
+            <button
+              class="btn"
+              popovertarget="popover2"
+            >
+              læs mere
+            </button>
+          </div>
+          <div
+            popover
+            id="popover2"
+          >
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+              magnam ducimus ea, sed minima asperiores.
+            </p>
+            <button
+              class="btn"
+              popovertarget="popover2"
+            >
+              luk
+            </button>
+          </div>
+        </article>
+      </section>
+      <section id="breaking">
+        <article class="news_card">
+          <h3>Breaking News</h3>
+          <p>Mand træder i hundelort <br />- Kræver national handlingsplan.</p>
+          <img
+            src=""
+            alt="news_img"
+          />
+          <button
+            class="btn"
+            popovertarget="popover3"
+          >
+            læs mere
+          </button>
+        </article>
+
+        <div
+          popover
+          id="popover3"
+        >
+          <p>
+            ODENSE, torsdag kl. 08:42: <br />
+            En ellers rolig morgen udviklede sig dramatisk, da den 41-årige
+            Henrik Mortensen trådte direkte i en frisk, håndvarm hundelort på
+            vej til bageren. <br /><br />Vidner beskriver scenen som "et øjeblik
+            af chok, efterfulgt af en danselignende bevægelse og flere ord, der
+            ikke egner sig til udtryk. <br /><br />
+            "Jeg hørte bare et splat, og så stod han der - helt stille, som
+            tiden frøs," Fortæller naboen Ingrid, som stadig er tydeligt rystet.
+            <br /><br />Henrik selv kræver nu politisk handling:
+            <br /><br />"Der skal skilte op, GPS-sporing på hunde - eller sko
+            med indbygget lorte-alarm, noget må gøres!"<br /><br />Kommunen
+            udtaler, at de "følger situationen tæt" og overvejer at nedsætte en
+            'Afføringskommision'. <br />I mellemtiden har Henrik valgt at smide
+            skoen ud og gå barfodet i bageren.
+          </p>
+          <button
+            class="btn"
+            popovertarget="popover3"
+          >
+            luk
+          </button>
+        </div>
+        <article class="news_card">
+          <h3>Nyhed</h3>
+          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
+          <img
+            src=""
+            alt="news_img"
+          />
+          <button
+            class="btn"
+            popovertarget="popover4"
+          >
+            læs mere
+          </button>
+        </article>
+        <div
+          popover
+          id="popover4"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            magnam ducimus ea, sed minima asperiores.
+          </p>
+          <button
+            class="btn"
+            popovertarget="popover4"
+          >
+            luk
+          </button>
+        </div>
+        <article class="news_card">
+          <h3>Nyhed</h3>
+          <p>Lorem ipsum dolor sit, sed minima asperiores.</p>
+          <img
+            src=""
+            alt="news_img"
+          />
+          <button
+            class="btn"
+            popovertarget="popover5"
+          >
+            læs mere
+          </button>
+        </article>
+        <div
+          popover
+          id="popover5"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            magnam ducimus ea, sed minima asperiores.
+          </p>
+          <button
+            class="btn"
+            popovertarget="popover5"
+          >
+            luk
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav class="some">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>
