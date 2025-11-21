@@ -150,6 +150,7 @@ nav a:active {
 /* Header*/
 .logoimg {
   width: 15%;
+  height: auto;
 }
 
 #main-text h1 {
