@@ -38,7 +38,7 @@
   --border-radius: 5px;
 
   /* Cards */
-  --color-card-bg: #ff4b00;
+  --color-card-bg: #fff;
   --color-cta-card-bg: #fff;
   /* news-cards */
   --color-news-bg: #fff;
@@ -65,6 +65,4 @@
 
   /* Infographics */
   --color-info-bg: #ffffff93;
-  --color-infobox-1-bg: #9f764fae;
-  --color-infobox-2-bg: #62523acb;
 }

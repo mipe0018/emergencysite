@@ -20,12 +20,8 @@ main {
   grid-template-rows: min-content min-content min-content 1fr min-content;
 }
 /* LAYOUT FOR HEADER AND FOOTER */
-footer {
-  display: grid;
-  gap: 10px;
-}
-header nav,
-footer nav {
+
+header nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -40,10 +36,6 @@ nav ul {
 header ul {
   height: 100%;
   width: clamp(175px, 50%, 300px);
-}
-footer ul {
-  flex-direction: column;
-  padding-left: 1rem;
 }
 
 /* LAYOUT FOR SECTIONS */
@@ -77,8 +69,5 @@ footer ul {
 
   h1 {
     grid-column: 1 / -1;
-  }
-  footer {
-    grid-template-columns: 1fr 1fr 1fr;
   }
 }
