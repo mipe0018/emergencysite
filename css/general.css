@@ -1,3 +1,11 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: var(--font-family-sans);
   color: var(--color-text);
@@ -41,10 +49,11 @@ h1 {
 #instruction h1,
 #register h1 {
   margin: 40px 0 20px 0;
-  padding: 15px 30px;
+  padding: 20px 30px;
   background-color: var(--color-head-bg);
   font-size: var(--font-h2-size);
-  font-size: 38px;
+  font-size: 22px;
+  line-height: 40px;
 }
 
 #instruction p {
@@ -101,12 +110,12 @@ nav a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 3.6rem;
+  height: 5rem;
 }
 
 #logotype-wrapper > a {
   color: var(--color-text-logotype);
-  font-size: var(--font-logotype-size);
+  font-size: 48px;
   font-weight: var(--font-weight-medium);
   width: max-content;
   margin-left: 1rem;
