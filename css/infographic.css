@@ -37,7 +37,6 @@
   margin: 0 0 1.2rem 0;
   padding: 0;
   font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
@@ -98,7 +97,6 @@ h1 {
 
 .info-graphic p {
   font-family: "Jura", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }

@@ -111,15 +111,13 @@ button:active {
   }
 }
 /* Tilføj rød kant omkring input-feltet, hvis det er ugyldigt */
-.form-group:has(:user-invalid) {
-  input {
-    outline: 3px solid #f005;
-    border-color: darkred;
-  }
-  /* Vis fejlmeddelelsen, hvis feltet er ugyldigt */
-  .error-message {
-    display: block;
-  }
+.form-group:has(:user-invalid) input {
+  outline: 3px solid #f005;
+  border-color: darkred;
+}
+/* Vis fejlmeddelelsen, hvis feltet er ugyldigt */
+.error-message {
+  display: block;
 }
 
 .output div {

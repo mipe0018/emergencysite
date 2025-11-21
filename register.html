@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -128,15 +128,9 @@
               type="text"
               id="first_name"
               name="first_name"
-              aria-describedby="fname-error"
               required
             />
-            <p
-              class="error-message"
-              id="password-error"
-            >
-              Please enter a value
-            </p>
+            <p class="error-message">Please enter a value</p>
           </div>
           <div class="form-group">
             <label for="last_name">Last name</label>
@@ -144,7 +138,6 @@
               type="text"
               id="last_name"
               name="last_name"
-              aria-describedby="lname-error"
               required
             />
             <p
@@ -161,52 +154,35 @@
               type="email"
               id="email"
               name="email"
-              aria-describedby="email-error"
               required
             />
-            <p
-              class="error-message"
-              id="email-error"
-            >
-              Please enter a value
-            </p>
+            <p class="error-message">Please enter a value</p>
           </div>
 
           <div class="form-group">
             <label for="password">Password</label>
-            <p id="password-instruction">
-              Password must be at least 8 characters
-            </p>
+            <p>Password must be at least 8 characters</p>
             <input
               type="password"
               id="password"
               name="password"
               minlength="8"
-              aria-describedby="password-instruction password-error"
               required
             />
-            <p
-              class="error-message"
-              id="password-error"
-            >
-              Please enter a value
-            </p>
+            <p class="error-message">Please enter a value</p>
           </div>
 
           <div class="form-group">
             <label for="password">Repeat password</label>
-            <p id="password-instruction">
-              Password must be at least 8 characters
-            </p>
-            <input none;" type="password" id="password1" name="password"
-            minlength="8" aria-describedby="password-instruction password-error"
-            required />
-            <p
-              class="error-message"
-              id="password-error"
-            >
-              Please enter a value
-            </p>
+            <p>Password must be at least 8 characters</p>
+            <input
+              type="password"
+              id="password1"
+              name="password"
+              minlength="8"
+              required
+            />
+            <p class="error-message">Please enter a value</p>
           </div>
 
           <div
@@ -220,7 +196,6 @@
               id="accept_terms"
               name="accept_terms"
               value="yes"
-              aria-describedby="terms-error"
               required
             />
           </div>
@@ -243,7 +218,6 @@
             type="text"
             id="first_name_output"
             name="first_name"
-            aria-describedby="fname-error"
             required
           />
           <p>Last name:</p>
@@ -251,7 +225,6 @@
             type="text"
             id="last_name_output"
             name="last_name"
-            aria-describedby="fname-error"
             required
           />
           <p>Email:</p>
@@ -259,24 +232,17 @@
             type="text"
             id="email_output"
             name="email"
-            aria-describedby="fname-error"
             required
           />
           <p>Password:</p>
           <input
-            type="secret"
             id="password_output"
             name="password"
-            aria-describedby="fname-error"
-            required
           />
           <p>Password:</p>
           <input
-            type="secret"
             id="password1_output"
             name="password"
-            aria-describedby="fname-error"
-            required
           />
         </div>
       </section>
